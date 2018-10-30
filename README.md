@@ -15,7 +15,7 @@ The platform is composed of several components :
 * **pcu_language** : Detect the main language used or all the languages used within a text. Based on **[langdetect][langdetect]**.
 * **pcu_nlp** : Get syntactic annotations of a text. Based on **[spacy.io][spacy]**.
 * **pcu_keyphrase** : Get keyphrases of a text. Based on **[kleis][kleis]**.
-* **pcu_relation** : Get semantic relationships existing between keyphrases of a text. Based on [Kata Gábor][gabor] algorithm.
+* **pcu_relation** : Get semantic relationships existing between keyphrases of a text. Based on **[Kata Gábor][gabor]**'s algorithm.
 
 [tika]: https://tika.apache.org
 [langdetect]:https://pypi.org/project/langdetect/
