@@ -37,7 +37,7 @@ The semantic platform is entirely configurable. To use it, download the sources,
 
 ```
 [data]
-path=data/IE.txt
+path=data/test.txt
 ; path to data to analyse
 [pipeline]
 language=
