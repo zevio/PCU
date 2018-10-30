@@ -1,4 +1,5 @@
 pcu_langage
 pcu_nlp
 pcu_io
-pcu_ml
+pcu_keyphrase
+pcu_relation
