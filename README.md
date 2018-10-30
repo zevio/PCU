@@ -23,7 +23,7 @@ The platform is composed of several components :
 [kleis]: https://github.com/sdhdez/kleis-keyphrase-extraction
 [gabor]: http://www.inalco.fr/enseignant-chercheur/kata-gabor
 
-![PCU components](https://www.casimages.com/i/181030041212111465.png)
+![PCU components](http://pix.toile-libre.org/?img=1540912595.png)
 
 ## Installation
 
