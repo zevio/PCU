@@ -1,4 +1,4 @@
-# pcu_core
+# PCU
 Plateforme de Connaissances Unifiées (PCU) project (*i.e* Unified Knowledge Platform).
 
 Semantic platform for valuing data. Open-source, configurable, written in Python 3.
