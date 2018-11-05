@@ -34,13 +34,13 @@ The platform is composed of several components :
 
 ## Installation
 
-To install requirements, go to pcu_core/ directory and execute the Makefile with the following command line :
+To install requirements, go to pcu/ directory and execute the Makefile with the following command line :
 
 `make init`
 
 ## Usage
 
-The semantic platform is entirely configurable. To use it, download the sources, go to pcu_core/ directory and tune the configuration file as you wish.
+The semantic platform is entirely configurable. To use it, download the sources, go to pcu/ directory and tune the configuration file as you wish.
 
 ```
 [data]
@@ -65,6 +65,6 @@ relation=no
 
 ## Test
 
-To test your installation, go to pcu_core/ directory and execute the Makefile with the following command line : 
+To test your installation, go to pcu/ directory and execute the Makefile with the following command line : 
 
 `make test`
