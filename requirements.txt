@@ -1,5 +1,5 @@
-pcu_langage
-pcu_nlp
-pcu_io
-pcu_keyphrase
-pcu_relation
+pcu-language
+pcu-nlp
+pcu-io
+pcu-keyphrase
+pcu-relation
