@@ -36,7 +36,7 @@ The platform is composed of several components :
 
 To install requirements, go to pcu/ directory and execute the Makefile with the following command line :
 
-`make init`
+`make install`
 
 ## Usage
 
@@ -44,7 +44,7 @@ The semantic platform is entirely configurable. To use it, download the sources,
 
 ```
 [data]
-path=data/test.txt
+path=data/IE.pdf
 ; path to data to analyse
 [pipeline]
 language=
