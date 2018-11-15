@@ -4,7 +4,6 @@ pcu-io
 pcu-pdf
 pcu-json
 pcu-keyphrase
-pcu-relation
 langdetect
 spacy
 kleis-keyphrase-extraction
