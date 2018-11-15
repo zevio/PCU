@@ -69,4 +69,4 @@ python3 core.py path/to/data/to/process
 
 ### For Windows users
 
-Some Windows users could encounter linking problems installing spacy, if so, launch ```make install``` as an administrator.
+Some Windows users might encounter linking problems installing spacy, if so, launch ```make install``` as an administrator.
