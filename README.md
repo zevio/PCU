@@ -64,3 +64,9 @@ To execute the workflow on your data, use the following command line :
 ```
 python3 core.py path/to/data/to/process
 ```
+
+## Solutions for problems encountered
+
+### For Windows users
+
+Some Windows users could encounter linking problems installing spacy, if so, launch '''make install''' as an administrator.
