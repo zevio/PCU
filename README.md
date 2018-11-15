@@ -34,7 +34,7 @@ The platform is composed of several components :
 
 ## Installation
 
-To install requirements, go to pcu/ directory and execute the Makefile with the following command line :
+To install requirements, execute the Makefile with the following command line :
 
 `make install`
 
@@ -43,9 +43,6 @@ To install requirements, go to pcu/ directory and execute the Makefile with the 
 The semantic platform is entirely configurable. To use it, download the sources, go to pcu/ directory and tune the configuration file as you wish.
 
 ```
-[data]
-path=data/IE.pdf
-; path to data to analyse
 [pipeline]
 language=
 ; default language : if empty, language will be automatically detected
@@ -57,14 +54,19 @@ relation=no
 ; yes if relation extraction is enabled, no otherwise
 ```
 
-* **path** : path to data to analyse (file or folder)
 * **language** : default language (en for English, fr for French). If empty, language will be automatically detected
 * **nlp** : name of the NLP pipeline to use (spacy)
 * **keyphrase** : yes if keyphrase extraction algorithm is enabled, no otherwise
 * **relation** : yes if semantic relations extraction algorithm is enabled, no otherwise
 
+To execute the workflow on your data, use the following command line :
+
+```
+python3 core.py path/to/data/to/process
+```
+
 ## Test
 
-To test your installation, go to pcu/ directory and execute the Makefile with the following command line : 
+To test your installation, execute the Makefile with the following command line : 
 
 `make test`
