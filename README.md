@@ -54,7 +54,6 @@ relation=no
 ; yes if relation extraction is enabled, no otherwise
 ```
 
-* **path** : path to data to analyse (file or folder)
 * **language** : default language (en for English, fr for French). If empty, language will be automatically detected
 * **nlp** : name of the NLP pipeline to use (spacy)
 * **keyphrase** : yes if keyphrase extraction algorithm is enabled, no otherwise
