@@ -1,5 +1,7 @@
 pcu-language
 pcu-nlp
 pcu-io
+pcu-pdf
+pcu-json
 pcu-keyphrase
 pcu-relation
