@@ -25,17 +25,6 @@ def getKeyphraseFromConfig():
 	keyphrase = pipeline.getboolean('keyphrase') # get keyphrase extraction enablement from configuration file
 	return keyphrase
 
-def getRelationFromConfig():
-	"""Return relation extraction enablement from configuration file.
-	Return :
-	relation -- relation extraction enablement
-	"""	
-	config = configparser.ConfigParser()
-	config.read('config.ini') # read configuration file
-	pipeline = config['pipeline'] 
-	relation = pipeline.getboolean('relation') # get relation extraction enablement from configuration file
-	return relation
-
 def getNLPFromConfig():
 	"""Return NLP pipeline from configuration file.
 	Return :
@@ -74,12 +63,6 @@ def applyMLAlgorithms(textfile):
 	if(getKeyphraseFromConfig()): # if keyphrase extraction is enabled (from configuration file)
 		print("**************** Keyphrases extraction. ****************")
 		keyphrases = extractKeyphrases(getContent(textfile)) # extract keyphrases within the text file
-		if(getRelationFromConfig()): # if relation extraction is enabled (from configuration file)
-			print("**************** Relations extraction. ****************")
-			createInputFiles(getContent(textfile),keyphrases) # create necessary input files for relation extraction from keyphrases
-			returncode = extractRelations(keyphrases) # extract relations within the file and get returncode of relations extraction program
-			if(returncode == 0): # if everything went well
-				print("**************** Done ****************")
 
 def applyWorkflow(file):
 	"""Apply workflow (NLP, machine learning) on a file.
