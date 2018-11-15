@@ -59,6 +59,12 @@ relation=no
 * **keyphrase** : yes if keyphrase extraction algorithm is enabled, no otherwise
 * **relation** : yes if semantic relations extraction algorithm is enabled, no otherwise
 
+To execute the workflow on your data, use the following command line :
+
+```
+python3 core.py path/to/data/to/process
+```
+
 ## Test
 
 To test your installation, execute the Makefile with the following command line : 
