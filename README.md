@@ -3,8 +3,6 @@ Plateforme de Connaissances Unifiées (PCU) project (*i.e* Unified Knowledge Pla
 
 Semantic platform for valuing data. Open-source, configurable, written in Python 3.
 
-----
-
 ## Components
 
 The platform is composed of several components :
@@ -30,7 +28,7 @@ The platform is composed of several components :
 [pcu_keyphrase]: https://github.com/zevio/pcu_keyphrase
 [pcu_relation]: https://github.com/zevio/pcu_relation
 
-![PCU components](http://pix.toile-libre.org/upload/original/1540912595.png)
+![PCU components](https://framapic.org/1U5tcQkBJuNo/EW3JA763WxDy.png)
 
 ## Installation
 
